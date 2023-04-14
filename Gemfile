@@ -30,7 +30,7 @@ gem "jbuilder"
 gem 'flickr', '~> 2.0', '>= 2.0.2'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
-
+gem 'simple_form'
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
