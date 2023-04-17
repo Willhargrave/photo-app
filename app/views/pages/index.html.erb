@@ -1,6 +1,4 @@
-<% if params[:user_id].nil? %>
 <%= render 'form' %>
-<% else  %>
 <% if params[:user_id].empty? %>
       <div>Flickr API Searcher is displaying latest public photos uploaded to Flickr</div>
     <% else %>
@@ -10,5 +8,4 @@
       <div>
         <img src="<%= Flickr.url_n(photo) %>"/>
       </div>
-    <% end %>
     <% end %>

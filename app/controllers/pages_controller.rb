@@ -1,7 +1,5 @@
 class PagesController < ApplicationController
 require 'flickr'
-
-
   def index
     begin
       flickr = Flickr.new
