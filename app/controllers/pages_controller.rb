@@ -10,7 +10,6 @@ class PagesController < ApplicationController
       end
     rescue StandardError => e
       flash[:alert] = "#{e.class}: #{e.message}. Please try again..."
-      redirect_to root_path
     end
   end
 end
